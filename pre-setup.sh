@@ -28,7 +28,7 @@ _get_anylinux_tool() {
 	$_DLCMD "$@"
 }
 
-mkdir -p "$ANYLINUX_TOOLS_DIR"
+mkdir -p "$ANYLINUX_TOOLS_DIR" ./dist
 _get_anylinux_tool "$ANYLINUX_TOOLS_DIR"/quick-sharun       "$QUICK_SHARUN"
 _get_anylinux_tool "$ANYLINUX_TOOLS_DIR"/get-debloated-pkgs "$DEBLOATED_PACKAGES"
 _get_anylinux_tool "$ANYLINUX_TOOLS_DIR"/make-aur-package   "$MAKE_AUR_PACKAGE"
@@ -37,10 +37,5 @@ chmod +x \
 	"$ANYLINUX_TOOLS_DIR"/quick-sharun       \
 	"$ANYLINUX_TOOLS_DIR"/get-debloated-pkgs \
 	"$ANYLINUX_TOOLS_DIR"/make-aur-package
-
-chmod +x ./get-dependencies.sh
-chmod +x ./make-appimage.sh
-
-mkdir -p ./dist
 
 echo "CONTAINER IS READY!"
