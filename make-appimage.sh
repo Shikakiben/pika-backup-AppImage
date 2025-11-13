@@ -3,7 +3,8 @@
 set -eu
 
 export ARCH=$(uname -m)
-export VERSION=$(cat ./dist/version)
+export VERSION=$(pacman -Q PACKAGENAME | awk '{print $2; exit}') # example command to get version of application here
+export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=PATH_OR_URL_TO_ICON
@@ -16,7 +17,3 @@ quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
-
-# release artifact and make appname file
-mv -v ./*.AppImage* ./dist
-awk -F'=' '/^Name=/ {gsub(/ /,"_",$2); print $2; exit}' ./AppDir/*.desktop > ./dist/appname
