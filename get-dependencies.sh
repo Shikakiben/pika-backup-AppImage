@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-# pacman -Syu --noconfirm pika-backup
+pacman -Syu --noconfirm pika-backup
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
