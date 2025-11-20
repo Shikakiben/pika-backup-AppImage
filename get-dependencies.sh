@@ -8,7 +8,6 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
             xorg-server-xvfb \
-            xorg-xvfb-run \
             curl \
             wget \
             pika-backup
