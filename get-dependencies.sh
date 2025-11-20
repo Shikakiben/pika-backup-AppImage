@@ -9,7 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
             xorg-server-xvfb \
             curl \
-            wget \                     
+            wget \
             pika-backup
 
 echo "Installing debloated packages..."
