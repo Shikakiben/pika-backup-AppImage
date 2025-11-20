@@ -14,6 +14,7 @@ export DESKTOP=/usr/share/applications/org.gnome.World.PikaBackup.desktop
 # Deploy dependencies
 quick-sharun /usr/bin/pika-backup \
              /usr/bin/borg \
+             /usr/lib/python3.13/site-packages/borg \
              /usr/bin/ssh
 
 # Additional changes can be done in between here
