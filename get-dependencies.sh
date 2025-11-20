@@ -9,10 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
             xorg-server-xvfb \
             curl \
-            wget \
-            borg \
-            openssh \
-            python-pyfuse3 \            
+            wget \                     
             pika-backup
 
 echo "Installing debloated packages..."
