@@ -12,7 +12,9 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/org.gnome.World.PikaBackup.sv
 export DESKTOP=/usr/share/applications/org.gnome.World.PikaBackup.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/pika-backup
+quick-sharun /usr/bin/pika-backup \
+             /usr/bin/borg \
+             /usr/bin/ssh
 
 # Additional changes can be done in between here
 
