@@ -1,7 +1,7 @@
 # Unofficial Pika-Backup-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/Shikakiben/picka-backup-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/Shikakiben/picka-backup-AppImage/releases/latest)
-[![CI Build Status](https://github.com//Shikakiben/picka-backup-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/Shikakiben/picka-backup-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/Shikakiben/pika-backup-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/Shikakiben/pika-backup-AppImage/releases/latest)
+[![CI Build Status](https://github.com//Shikakiben/pika-backup-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/Shikakiben/pika-backup-AppImage/releases/latest)
 
 <p align="center">
   <img src="https://static.gnome.org/catalog/app-icon/scalable/org.gnome.World.PikaBackup.svg" width="128" />
@@ -9,7 +9,7 @@
 
 * Official site: https://apps.gnome.org/en/PikaBackup/
 
-* [Latest Stable Release](https://github.com/Shikakiben/picka-backup-AppImage/releases/latest)
+* [Latest Stable Release](https://github.com/Shikakiben/pika-backup-AppImage/releases/latest)
 
 ---
 
