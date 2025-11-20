@@ -1,9 +1,15 @@
-# TEMPLATE-AppImage 🐧
+# Unofficial Pika-Backup-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/Shikakiben/picka-backup-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/Shikakiben/picka-backup-AppImage/releases/latest)
+[![CI Build Status](https://github.com//Shikakiben/picka-backup-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/Shikakiben/picka-backup-AppImage/releases/latest)
 
-* [Latest Stable Release](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+<p align="center">
+  <img src="https://static.gnome.org/catalog/app-icon/scalable/org.gnome.World.PikaBackup.svg" width="128" />
+</p>
+
+* Official site: https://apps.gnome.org/en/PikaBackup/
+
+* [Latest Stable Release](https://github.com/Shikakiben/picka-backup-AppImage/releases/latest)
 
 ---
 
@@ -12,6 +18,14 @@ AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it
 **This AppImage bundles everything and should work on any linux distro, even on musl based ones.**
 
 This AppImage can work **without FUSE** at all thanks to the [uruntime](https://github.com/VHSgunzo/uruntime)
+
+It is possible that this appimage may fail to work with appimagelauncher, I recommend using AM:
+
+
+
+* [AM](https://github.com/ivan-hc/AM) `am -i pika-backup` or `appman -i pika-backup `
+
+
 
 More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
 
@@ -23,4 +37,3 @@ More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/
 
 ---
 
-# Fork this repository to quickly make an AppImage using the [Anylinux-AppImages](https://github.com/pkgforge-dev/Anylinux-AppImages) tools
