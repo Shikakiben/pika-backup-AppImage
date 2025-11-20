@@ -10,7 +10,8 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.gnome.World.PikaBackup.svg
 export DESKTOP=/usr/share/applications/org.gnome.World.PikaBackup.desktop
-export PATH_MAPPING="/usr/lib/python3.13/site-packages/borg:\${SHARUN_DIR}/shared/lib/python3.13/site-packages/borg"
+export DEPLOY_SYS_PYTHON=1
+# bexport PATH_MAPPING="/usr/lib/python3.13/site-packages/borg:\${SHARUN_DIR}/shared/lib/python3.13/site-packages/borg"
 
 # Deploy dependencies
 quick-sharun /usr/bin/pika-backup \
