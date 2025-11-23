@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.gnome.World.PikaBackup.svg
 export DESKTOP=/usr/share/applications/org.gnome.World.PikaBackup.desktop
+export STARTUPWMCLASS=org.gnome.World.PikaBackup
 export DEPLOY_SYS_PYTHON=1
 
 quick-sharun /usr/bin/pika-backup \
